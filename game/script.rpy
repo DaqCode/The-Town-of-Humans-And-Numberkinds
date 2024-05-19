@@ -1,7 +1,9 @@
+define n = Character("???", who_color="#4800C6")
 define c1 = Character("???900")
-define BadGuy = Character("Bad Guy")
-define Alex = Character("Alex")
-define Jerry = Character("Jerry")
+define BadGuy = Character("Bad Guy", who_color="#ff820e")
+define Alex = Character("Alex", who_color="#b300ffc7")
+define Jerry = Character("Jerry", who_color="#06b200")
+define E = Character("E", who_color="#ff0000")
 
 label start:
     camera:
@@ -18,7 +20,6 @@ label start:
 
         "Suddenly, you see a discolored figure, walking towards you. It looked human, at least thats what you thought."
 
-        define n = Character("???", color="#4800C6")
         show narrator neutral
         n "Welcome in. I didn't expect a guest."
 
@@ -238,4 +239,10 @@ label start:
         "{b}Mayors? House?{/b} What in the hell is it talking about? More confusion seeps into your mind as you try to decrypt his message, even though its not even a riddle."
         "After another heavy {i}sigh{/i}, you start walking on the sidewalk, practically guessing where each of your steps would take you."
         
+        "Many twists and turns later, you find a somewhaht odd looking house, that looked like it had pillars growing directly below the ground itself. "
+        "It looked quite decieving, but right before you entered, you heard a odd noise nearby the arera. It sounded like {i}rumaging{/i}."
+        "Before you could even tell what the hell it was, you turn around, and see a small slime. It had a ridiculous looking tie and it also looked like it was about to attack."
+        "You quickly dashed backwards to distance yourself away from such creature as the slime grows confused of your actions."
+
+
     return
