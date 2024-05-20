@@ -239,10 +239,23 @@ label start:
         "{b}Mayors? House?{/b} What in the hell is it talking about? More confusion seeps into your mind as you try to decrypt his message, even though its not even a riddle."
         "After another heavy {i}sigh{/i}, you start walking on the sidewalk, practically guessing where each of your steps would take you."
         
-        "Many twists and turns later, you find a somewhaht odd looking house, that looked like it had pillars growing directly below the ground itself. "
+        "Many lefts and rights and other turns later, you find a somewhaht odd looking house, that looked like it had a more complete with a better looking roof."
+        "Somehow, the other houses out there just looked quite... odd looking now that you compared it with the mayor's home instead."
         "It looked quite decieving, but right before you entered, you heard a odd noise nearby the arera. It sounded like {i}rumaging{/i}."
         "Before you could even tell what the hell it was, you turn around, and see a small slime. It had a ridiculous looking tie and it also looked like it was about to attack."
         "You quickly dashed backwards to distance yourself away from such creature as the slime grows confused of your actions."
 
+        E "Woah there, are you fine? I’m not a threat don’t worry. What’s your name? Oh sorry I should probably say mine first heh. Name is E, I’m the second mayor, The first is through that door."
+        p "E... Hey, nice to meet you I suppose. Name's [player]. I really didn't think your name would ever be that short, but, do you know where the hell I'm in?"
+        p "Still quite confused on my entire part of falling through this, weird portal or whatever, wondering if you'd know anything about it."
 
+        "The slime thinks for a second. As she just stands there, you can't help but notice the strange orb in the middle of her. A strange sight indeed."
+        E "Nope, got really no idea. I feel like I just appeared here, and you know, I'm still living my dream like how I wanted. As the town mayor, I suppose."
+        p "Oh, so you're the mayor? I've been redirected by one of your friends, Decent... I think it was 600?"
+        E "900. I see, I've known him quite well, and I think I do have some things that you could do. Let me flip through my notes real quickly..."
+
+        "She slowly flips through her notes, from inside her body..? You dare not question it, and just wait for her response. After around a short minute, she closes the book."
+        E "Alright, you can come with me. I have another important member that you should be acquainted with. Don't worry, he won't be as weird as you think he might look like."
+        "You follow the slime up into the house. The house itself looked quite comfy. It looked nearly identical to your average looking chapel, with benches, couple of cabinets..."
+        "{B}And a marble statue??!!{/B}"
     return
