@@ -20,6 +20,7 @@ label start:
 
         "Suddenly, you see a discolored figure, walking towards you. It looked human, at least thats what you thought."
 
+        define n = Character("???", color="#4800C6")
         show narrator neutral
         n "Welcome in. I didn't expect a guest."
 
@@ -119,13 +120,15 @@ label start:
             
         label c1_done:
 
-        scene bg city 
-        "You walk over to the city. The first thing you saw was a number, regular humans, a human with a TV as a head, and a giant slime. And of course, you still don't know what's going on?"
+        scene bg stunseed 1
+        with dissolve
+        "You walk over to the city, and, nothing weird so far..."
             
         "You see a couple of buildings, utility stores, grocery stores, so it must be similar to your own planet you've been in before."
 
         "And then once you lease expect it, the one number you saw last time, the digits 900, start floating towards you. You can’t really do much, so you go towards him and talk."
         show decent silhouette
+        with dissolve
         c1"Hello there! Welcome to Stunseed, a land of magical and complex beings of all the works. What got you here pal?"
         
         if park:
@@ -162,7 +165,7 @@ label start:
 
         "With a sigh, you breathe and go with the flow, having that slight feeling of nausea."
 
-        define n2 = Character("???", color = "#000000")
+        define n2 = Character("???", color = "#9b9b9bff")
         n2 "Decent! What are you doing? We were supposed to go right... Now..? Who's the new guy? Or gal?"
 
         c1"A new town member named [player], he also supposedly fell from 900 feet from the sky."
@@ -234,8 +237,12 @@ label start:
         
         c1 "You see that ginormous tree out there? Search 'round there, and you'll find the mayors house."
         c1 "Kay byeeee..."
+
+        scene bg stunseed 1
+        with dissolve
+
         "Before you wanted to ask him more questions, the strange number already disapeared."
-        "All of the other people also just, left with him somehow. How in the world do people just know how to do that?"
+        "Even his friends also just, left with him somehow. How in the world do people just know how to do that?"
         "{b}Mayors? House?{/b} What in the hell is it talking about? More confusion seeps into your mind as you try to decrypt his message, even though its not even a riddle."
         "After another heavy {i}sigh{/i}, you start walking on the sidewalk, practically guessing where each of your steps would take you."
         
@@ -257,5 +264,5 @@ label start:
         "She slowly flips through her notes, from inside her body..? You dare not question it, and just wait for her response. After around a short minute, she closes the book."
         E "Alright, you can come with me. I have another important member that you should be acquainted with. Don't worry, he won't be as weird as you think he might look like."
         "You follow the slime up into the house. The house itself looked quite comfy. It looked nearly identical to your average looking chapel, with benches, couple of cabinets..."
-        "{B}And a marble statue??!!{/B}"
+        "{b}And a marble statue..?{/}"
     return
