@@ -5,6 +5,7 @@ define BadGuy = Character("Bad Guy", who_color="#ff820e")
 define Alex = Character("Alex", who_color="#b300ffc7")
 define Jerry = Character("Jerry", who_color="#06b200")
 define E = Character("E", who_color="#ff0000")
+define Kalk = Character("Kalkov", who_color="#bebebe")
 
 #Custom Variables sets here
 define characterDissolve = Dissolve(0.1)
@@ -281,8 +282,7 @@ label start:
         "Before you could even tell what the hell it was, you turn around, and see a small slime. It had a ridiculous looking tie and it also looked like it was about to attack."
         "You quickly dashed backwards to distance yourself away from such creature as the slime grows confused of your actions."
 
-        show e slime happy:
-            xoffset 315.00
+        show e slime happy
         with characterDissolve
         E "Woah there, are you fine? I’m not a threat don’t worry. What’s your name? Oh sorry I should probably say mine first heh. Name is E, I’m the second mayor, The first is through that door."
         p "E... Hey, nice to meet you I suppose. Name's [player]. I really didn't think your name would ever be that short, but, do you know where the hell I'm in?"
@@ -311,4 +311,38 @@ label start:
 
         "You follow the slime up into the house. The house itself looked quite comfy. It looked nearly identical to your average looking chapel, with benches, couple of cabinets..."
         "{b}And a marble statue..?{/}"
+
+        "As you entere inside the home, the marble state starts shaking and shivering, oddly."
+        "Before you know it, it rises higher than you, and now it just has a suit, ready for its usual profession"
+
+        Kalk "Hello there."
+        "It spoke in such a threatening voice, but you don't know if you should respond or not."
+        "Did Decent teach you anything with talking yet? You should probably break out of that space of being quiet anyways..."
+
+        menu:
+            "Speak to Kalkov":
+                jump c4_speak
+            "Don't speak":
+                jump c4_nspeak
+
+        label c4_speak:
+            p "Hello there. I've been told by your friend your name is, Kalkov?"
+            Kalk "Indeed it is. Well, its nice to know you aren't one of the shy ones. Welcome to Stun Seed Town."
+            jump c4_done
+
+        label c4_nspeak:
+            "You stand there, not saying a word."
+            "Of course, you can already feel the judgement rise from the ginourmous marble statue, and you start feeling tense and feel goosebumps forming."
+            Kalk "Well, so you are one of them."
+            "He {i}sighs{/i} before rising up from his chair."
+            Kalk "Welcome to Stun Seed Town, hopefully you make a nice use of this place"
+            jump c4_done
+        
+        label c4_done:
+            "You feel slightly concered. That can't just be it, with simple admission; There's got to be a catch."
+
+        p "Uhhh, so what exactly am I going to do? Where am I going to live?"
+        Kalk "Thank you for bringing that up. I actually do have a couple of things to share with you to make your living life a bit more comfortable."
+        p "He ruffles around with some papers, and eventually gets everything ordered as it is, stacking right on top of each other."
+
     return
