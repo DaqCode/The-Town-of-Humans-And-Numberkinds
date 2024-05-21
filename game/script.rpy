@@ -40,8 +40,8 @@ screen inventory_item_description:
     # modal True
     window:
         background "#66edff99"
-        xsize 600
-        ysize 150
+        xsize 750
+        ysize 175
         xalign 0.5
         yalign 0.1
         text item_description:
@@ -327,7 +327,7 @@ label start:
 
         label c4_speak:
             p "Hello there. I've been told by your friend your name is, Kalkov?"
-            Kalk "Indeed it is. Well, its nice to know you aren't one of the shy ones. Welcome to Stun Seed Town."
+            Kalk "Indeed it is. Well, its nice to know you aren't one of the shy ones. Welcome to Stun Seed."
             jump c4_done
 
         label c4_nspeak:
@@ -343,6 +343,24 @@ label start:
 
         p "Uhhh, so what exactly am I going to do? Where am I going to live?"
         Kalk "Thank you for bringing that up. I actually do have a couple of things to share with you to make your living life a bit more comfortable."
-        p "He ruffles around with some papers, and eventually gets everything ordered as it is, stacking right on top of each other."
+        "He ruffles around with some papers, and eventually gets everything ordered as it is, stacking right on top of each other."
+        Kalk "Alright, so here's what I got in store for you. You have a house, and all you got to do to maintain that is to just pay $50. Every 3 weeks will suffice."
+        p "And how am I going to get money? Could I just assume doing jobs or commissions will be enough to pay it off?"
+        Kalk "Absolutely. And to make it a little bit more easier on your toes, I'll cut your pay for this first rent by 50%. So only gotta pay $25, but $50 later on."
+        Kalk "If you do want to have more priorities and upgrade your home, well, that'll come with increased costs, but it will make your home, more home-ly, if that makes sense."
+                
+        p "That, sounds like a handfull to take on. What other ways do you have of being able to pay this off?"
+        Kalk "Well, my other suggestion for getting some money other than jobs or commissions..."
+        Kalk "How about building your relatioship with them?"
+        p "Huh? So like, dating them or something? Or just being friends?"
+        Kalk "You decide. I'm simply here to give you some directions and if you need, I think your other friend there, Decent900 can help you out."
+        Kalk "I believe thats all I have to say. Any questions?"
+
+        menu:
+            "About my house? How do I repay it?"
+
+            "How can I get money?"
+
+            "No questions."
 
     return
