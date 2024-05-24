@@ -1,6 +1,6 @@
 #Characters defined jumbled
 define n = Character("???", who_color="#4800C6")
-define c1 = Character("???900")
+define c1 = Character("???900", who_color="ffffff")
 define BadGuy = Character("Bad Guy", who_color="#ff820e")
 define Alex = Character("Alex", who_color="#b300ffc7")
 define Jerry = Character("Jerry", who_color="#06b200")
@@ -83,7 +83,6 @@ screen inventory_item_description:
                 textbutton item:
                     action SetVariable("item_description", item_descriptions.get(item))
                     selected False
-
     on "hide" action SetVariable("item_description", "")
 
 #Gane begins from here
@@ -98,24 +97,44 @@ label start:
 
         scene bg void
         with bgDissolve
-        "You slowly opened your eyes. You feel a puple void, swirling around you. Your stomach is in knots, your brain is confused and anxious, your heart feeling like it'll pump right out of your chest.
-        {i}\“Where am I? What is this?”{/i}\ You questioned yourself."
+        "You slowly opened your eyes. You feel a puple void, swirling around you. Your stomach is in knots, your brain is confused and anxious, your heart feeling like it'll pump right out of your chest."
+        "{i}\“Where am I? What is this?”{/i}\ You questioned yourself."
         "Suddenly, you see a discolored figure, walking towards you. It looked human, at least thats what you thought."
         define n = Character("???", color="#4800C6")
         show narrator neutral
-        with characterDissolve
-        with wiperight
+        with fade
         n "Welcome in. I didn't expect a guest."
-        show narrator too interested 
-        with characterDissolve
-        n "You seem quite new here, huh? Nice to meet you. Now how about you tell me who  you are? 
-        Or maybe your intentions?"
-        python:
-            player = renpy.input("What's your name? (This is your permanent name for the remainder of the game, so it cannot be changed.)")
-        define p = Character("[player]")
+        show narrator too interested
+        with fade 
+        n "You seem quite new here, hm? Nice to meet you. Now how about you tell me who  you are? Or maybe your intentions?"
+        show narrator neutral
+        with fade
+
+        define  p          = Character("[player]")                                              # The player character
+        define  npcNames    = ["Decent900", "Decent", "Alex", "BadGuy", "Jerry", "E", "Kalkov"]  # Names the PC can't choose
+        default player      = "Unknown"                                                          # What to call the PC
+
+        label chooseName:
+            $ renpy.dynamic('done', 'name', 'prompt')
+            $ done = False
+            while not done:
+                $ prompt = "Write your name down."
+                $ prompt += " Only gotta be letters, no spaces, or weird characters. Or potential names of the others. Hopefully your name isn't longer than 10 letters..."
+                $ name = renpy.input(prompt, length=10, exclude='" ", "?", "!", "@"').strip().capitalize() or "Unknown"
+                if name in npcNames:
+                    show narrator too interested
+                    with fade 
+                    n "Naming yourself a character of our world? Quite foolish."
+                    n "I'd suggest having a different name..."
+                    show narrator neutral 
+                    with characterDissolve
+                else:
+                    $ done = True
+            $ player = name
+        
         p "Uh, my name is [player], where am I? Who are you?"
         show narrator thinking
-        with characterDissolve
+        with fade
         n "Nice to meet you, [player]. I have a feeling you came here not by mere chance, but with purpose. 
         So let’s make haste; I’m quite busy with a lot, you know."
         show narrator guide
@@ -125,10 +144,11 @@ label start:
         scene bg portal
         with bgDissolve
         "The thing leads you to a small portal. The portal looked like your average sized town; buildings, people walking around..."
+        "With a giant pink tree in the heart?"
         scene bg portal2 
         with bgDissolve
-        "And, a floating number..?"
-        p "So, you mind explaining what this place is or-"
+        "And... a floating number..?"
+        p "Uhh, so you mind explaining what this place is or-"
         n "Have fun!"
         scene bg bye
         with Dissolve(0.25)
@@ -168,14 +188,15 @@ label start:
             scene bg parkgo
             with bgDissolve 
             "Yep, you were just here. You still see that same flower pile you laid on."
-            "Just that, the flower bed looks, much more flatter than you think. It doesn't look like it's going to wilt away either."
-            "Looking further, you see some odd looking, berries. Or at least thats what you think."
+            "The flower bed looks, much more flatter than you think after your 300 feett fall. It doesn't look like it's going to wilt away either."
+            "Looking more closely, you see some odd looking berries. Or at least thats what you think."
             scene bg parkback
             show got berries
             with dissolve
             show screen inventory_display_toggle
             $ inventory_items.append("Strange Berries")
             "You got...Berries?" 
+            "They feel somewhat fuzzy, and, why does it feel like its moving?"
             "You packed it into your bag and moved on."
             jump c1_done
 
@@ -189,7 +210,8 @@ label start:
         "You walk over to the city, and, nothing weird so far..."
         "You see a couple of buildings, utility stores, grocery stores, so it must be similar to your own planet you've been in before."
         "{i}Maybe except that mushroom home you see in the distance...{/i}"
-        "And then once you lease expect it, the one number you saw last time, the digits 900, start floating towards you. You can’t really do much, so you go towards him and talk."
+        "And then once you lease expect it, the one number you saw last time, the digits 900, start floating towards you." 
+        "You can’t really do much, so you go towards him and talk."
         show decent silhouette:
             xoffset -150.00
             yoffset -144.00
@@ -204,7 +226,8 @@ label start:
             "Stay curious, say nothing":
                 jump c2_noSpeak
         label c2_speak:
-            p "Uh, hey. I’m [player]. I’m not sure who the hell you might be, but nice to meet you? Also, yeah. I somehow survived that fall. No idea how the hell I did."
+            p "Uh, hey. I’m [player]. I’m not sure who the hell you might be, but nice to meet you?" 
+            p "And yes. I somehow survived the fall. No idea how the hell I did."
             jump c2_done
 
         label c2_noSpeak:
@@ -216,7 +239,6 @@ label start:
 
         label c2_done:
             c1"So, you actually fell from 900 fe-"
-        
         define n2 = Character("???", color = "#9b9b9bff")        
         with vpunch
         n2 "DECCCENNNNTTT!"
@@ -429,9 +451,28 @@ label start:
         Kalk "You decide. I'm simply here to give you some directions and if you need, I think your other friend there, Decent900 can help you out."
         Kalk "I believe thats all I have to say. Any questions?"
         
-        #menu:
-        #    "About my house? How do I repay it?"
-        #    "How can I get money?"
-        #    "No questions."
+        menu questions:
+            "About my house? How do I repay it? How do I fix it?":
+                jump c5_repay
+            "How can I get money?":
+                jump c5_money
+            "No questions.":
+                jump c5_nq
+        
+        label c5_repay:
+            Kalk "Sure thing. The home you have is going to cost 25$ for the first 3 weeks, but 50$ later for rent."
+            Kalk "If you want, you can come over to me and I'll be willing to fix up your home with the nessessary money and materials."
+            Kalk "Anything else?"
+            jump questions
+        label c5_money:
+            Kalk "Sure sure. You can earn money by doing commissions or doing jobs."
+            Kalk "You can also get more money by scavenging in nearby trash cans or bushes."
+            Kalk "Gotta get ceative with how else you're getting money, but you'll need a lot to be able to pay off your debt."
+            Kalk "Anything else?"
+            jump questions
+        label c5_nq:
+            "Great then. Thanks for stopping by, and I wish you best of luck then."
+
+        p "Thanks for the help. Hope you have a good day."
 
     return
