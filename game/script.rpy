@@ -36,10 +36,8 @@ screen inventory_display_toggle:
         background "#ff8800d9"
         xalign 0.05
         yalign 0.05
-
         textbutton "Inventory":
             action ToggleScreen("inventory_item_description")
-
     on "hide" action Hide("inventory_item_description")
 
 default item_descriptions = {"Strange Berries" : "It smells strong, thats for sure. You feel unsure if its even safe for human consumption, so best if you leave it for now in your bag."}
@@ -89,7 +87,7 @@ screen inventory_item_description:
 label start:
     camera:
         perspective True
-    ###########################################################################################################################################################
+##########################################################################################################################################
     # Chapter 0: Where the hell am I?
     label WhereAmI:
         scene bg chapterzero
@@ -98,7 +96,8 @@ label start:
 
         scene bg void
         with bgDissolve
-        "You slowly opened your eyes. You feel a puple void, swirling around you. Your stomach is in knots, your brain is confused and anxious, your heart feeling like it'll pump right out of your chest."
+        "You slowly opened your eyes. You feel a puple void, swirling around you."
+        "Your stomach is in knots, your brain is confused and anxious, your heart feeling like it'll pump right out of your chest."
         "{i}\“Where am I? What is this?”{/i}\ You questioned yourself."
         "Suddenly, you see a discolored figure, walking towards you. It looked human, at least thats what you thought."
         define n = Character("???", color="#4800C6")
@@ -106,7 +105,7 @@ label start:
         with fade
         n "Welcome in. I didn't expect a guest."
         show narrator too interested
-        with fade 
+        with characterDissolve
         n "You seem quite new here, hm? Nice to meet you. Now how about you tell me who  you are? Or maybe your intentions?"
         show narrator neutral
         with fade
@@ -135,7 +134,6 @@ label start:
                     n "Have fun playtesting my friend."
                     n "The code is all in your hands."
                     $ done = True
-
             $ player = name
         
         p "Uh, my name is [player], where am I? Who are you?"
@@ -149,8 +147,8 @@ label start:
         You wanted answers, yes, but there was something more interesting from your eyes."
         scene bg portal
         with bgDissolve
-        "The thing leads you to a small portal. The portal looked like your average sized town; buildings, people walking around..."
-        "With a giant pink tree in the heart?"
+        "The thing leads you to a small portal. The portal looked like your average sized town buildings, people walking around..."
+        "With a giant pink tree acting as the heart of the town."
         scene bg portal2 
         with bgDissolve
         "And... a floating number..?"
@@ -169,7 +167,7 @@ label start:
         scene black
         with vpunch
         "*Thud*"
-    ###########################################################################################################################################################
+    ##########################################################################################################################################
     # Chapter 1: Welcome to StunSeed
     label welcomeToStunseed:
         scene bg inworld
@@ -181,7 +179,9 @@ label start:
         "You wake up from your nap of some sort. You’re lying on a bed of leaves and slowly get up. It feels like Earth, but something doesn’t seem off."
         scene bg inworld3
         with bgDissolve
-        "You dust yourself off and start to walk on the path. As you walk, everything seems to be, normal. Trees rooted, roads layed, and flowers expressing thenselves with their colors."
+        "You dust yourself off and start to walk on the road path. Seemed more of a road for vehicles, but you haven't spotted any so far."
+        "The air felt more clean than the one in Earth, considering that you also probably heard no cars either."
+        "As you walk, everything seems to be, normal. Trees rooted, roads layed, and flowers expressing thenselves with their colors."
         "As you walk through, you see a sign with the text \“Stun Seed”\. Is this a practical joke? Or is that an actual place now?"
         "You want to check out the so called Stun Seed, or head back to the park?"
         menu:
@@ -193,19 +193,19 @@ label start:
         label c1_no:
             $ park = True
             scene bg parkgo
-            with bgDissolve 
+            with bgDissolve
             "Yep, you were just here. You still see that same flower pile you laid on."
             "The flower bed looks much more flatter even after the 300 feet fall. It doesn't look like the pile is going to wilt away either."
             "Turns out there really isn't much else you can do, so why'd you even bother coming back here?"
             "Well turns out looking more closely, you noticed some odd looking berries. Or at least thats what you thought."
-            "You stroll over to it and swiftly pick it up from where it usuall sat; on the glassy plains of the very area you fell upon."
+            "You stroll over to it and swiftly pick it up from where it sat: on the glassy plains of the very area you fell upon."
             scene bg parkback
             show got berries
             with dissolve
             show screen inventory_display_toggle
             $ inventory_items.append("Strange Berries")
             "You got...Berries?" 
-            "Quite shiny, looks like blueberries."
+            "Quite shiny. It reminds you of blueberries. Maybe not based on taste, but looks."
             "You packed it into your bag and moved on."
             jump c1_done
 
@@ -217,8 +217,8 @@ label start:
         scene bg stunseed 1
         with dissolve
         "You walk over to the city, and, nothing weird so far..."
-        "You see a couple of buildings, utility stores, grocery stores, so it must be similar to your own planet you've been in before."
         "{i}Maybe except that mushroom home you see in the distance...{/i}"
+        "You see a couple of buildings, utility stores, grocery stores, so it must be similar to your own planet you've been in before."
         "And then once you lease expect it, the one number you saw last time, the digits 900, start floating towards you." 
         "You can’t really do much, so you go towards him and talk."
         show decent silhouette:
@@ -315,13 +315,17 @@ label start:
         with characterDissolve
         Alex "Bad Guy is the stick figure, Jerry is the snake."
         p "Nice to meet you Bad Guy, and nice to meet you Jerry. Ya’ll look like you’d be nice people."
+        show badguy neutral
+        with characterDissolve
         "Bad Guy looked pretty spaced out, guess he looked quite chill."
         "For a stick figure, that is." 
-        show badguy neutral
+        show badguy unaware
         with characterDissolve
         "And then, it's just a snake. Nothing much he can do, other than bite me or something..?"
         "Lets hope thats not the case."
         "And a... witch. If thats what I had to assume. I'll probably figure it out later."
+        show badguy neutral
+        with characterDissolve
         BadGuy "... Sup"
         show jerry excited
         with characterDissolve
@@ -330,7 +334,7 @@ label start:
         with characterDissolve
         p "Poor thing, wish that thing could talk in this cartoon of a world."
         "He seems, friendly, I think?"
-        "Random curiosity now makes me want to pet it"
+        "Random curiosity now makes me want to pet it."
         "No reason? Just out of curiousity? {i}I do like reptiles I suppose, but it could be a bit of a risk{/i}..?"
         menu: 
             "Pet Jerry":
@@ -350,7 +354,7 @@ label start:
             Jerry "Sssss sss sSSssss ss..!"
             show decent neutral
             with characterDissolve
-            "You still can't tell what he said, but you can tell he appreciate the pat you gave him"
+            "You still can't tell what he said, but you can tell he appreciate the pat you gave him."
             jump c3_done
 
         label c3_noPet:
@@ -360,9 +364,12 @@ label start:
         label c3_done:
             show decent smile talking
             with characterDissolve
-            c1 "Well uhh... Nice to meet you, but since you are new, you should probably find a place to stay. Here, go in there and meet the mayors, I'm sure they will be happy to see new people."
+            c1 "Well uhh... Nice to meet you, but since you are new, you should probably find a place to stay."
         
+        show jerry neutral 
+        with characterDissolve
         c1 "You see that ginormous tree out there? Search 'round there, and you'll find the mayors house."
+        c1 "Go in there and meet the mayors, I'm sure they will be happy to see a new town member."
         c1 "Kay byeeee..."
         #Template for later bg
         scene bg stunseed 1
@@ -378,10 +385,10 @@ label start:
         "Many lefts and rights and other turns later, you find the mayors home, that looked much more complete."
         "Complete, as in it had a roof, where many others, simply didn't."
         "Somehow, the other houses out there just looked completely dilapidated. They had some broken walls, a missing roof, and not as many nice flowers as the mayors home did."  
-        "...Comparing it with the house you stand in front of, it was, interesting, to say the least."
+        "Comparing it with the house you stand in front of, it was interesting, to say the least."
         "It looked quite decieving, but right before you entered, you heard a odd noise nearby the arera. It sounded like {i}rumaging{/i}."
-        "Before you could even tell what the hell it was, you turn around, and see a small slime. It had a ridiculous looking tie and it also looked like it was about to attack."
-        "You quickly backed up to distance yourself away from such creature as the slime grows confused of your actions."
+        "Before you could even tell what the hell it was, you turn around, and see a small slime. It had a ridiculous looking tie and it's intention didn't seem good either."
+        "You quickly backed up to distance yourself away from the monster as the slime grew confused of your actions."
         show e slime happy
         with wipeup
 
@@ -410,14 +417,12 @@ label start:
         show e slime happy
         with characterDissolve
         E "Alright, you can come with me. I have another important member that you should be acquainted with inside that house. Don't worry, he won't be as weird as you think he might look like."
-        #Template for later bg
         scene bg stunseed mayorinside
         with bgDissolve
 
         "You follow the slime up into the house. The house itself looked quite comfy. It looked nearly identical to your average looking home."
-        "It had your average kitchen, you could assume you stand in a living room, and in that living room had a desk filled with a stack of paperwork."
+        "It had a kitchen, you could assume you currently stood in a living room, and in that living room had a desk filled with a stack of paperwork."
         "{b}And a marble statue..?{/b}"
-
         "As you stand in the carpeted living room, the marble state starts shaking and shivering, oddly."
         "Before you know it, it rises higher than you, and now it just has a suit, ready for its usual profession"
 
@@ -436,6 +441,7 @@ label start:
         label c4_speak:
             p "Hello there. I've been told by your friend your name is, Kalkov?"
             Kalk "Indeed it is. Well, its nice to know you aren't one of the shy ones. Welcome to Stun Seed."
+            $ nospeak = False
             jump c4_done
 
         label c4_nspeak:
@@ -443,13 +449,16 @@ label start:
             "Of course, you can already feel the judgement rise from the ginourmous marble statue, and you start feeling tense and feel goosebumps forming."
             Kalk "Well, so you are one of them."
             "He {i}sighs{/i} before rising up from his chair."
-            Kalk "Welcome to Stun Seed Town, hopefully you make a nice use of this place"
+            Kalk "Welcome to Stun Seed Town, hopefully you make a nice use of this place."
+            $ nospeak = True
             jump c4_done
         
         label c4_done:
-            "You feel slightly concered. That can't just be it, with simple admission; There's got to be a catch."
-
+        
+        "You feel slightly concered. That can't just be it, with simple admission; There's got to be a catch."
         p "Uhhh, so what exactly am I going to do? Where am I going to live?"
+        if nospeak:
+            Kalk "Spoken? I see you've quickly switched up."
         Kalk "Thank you for bringing that up. I actually do have a couple of things to share with you to make your living life a bit more comfortable."
         "He ruffles around with some papers, and eventually gets everything ordered as it is, stacking right on top of each other."
         Kalk "Alright, so here's what I got in store for you. You have a house, and all you got to do to maintain that is to just pay $50. Every 3 weeks will suffice."
@@ -490,18 +499,22 @@ label start:
         label c5_money:
             Kalk "Sure sure. You can earn money by doing commissions or doing jobs."
             Kalk "You can also get more money by scavenging in nearby trash cans or bushes."
-            Kalk "Get ceative with how you get your pay, but you'll need a lot to be able to pay off your debt and customize to your wishes."
+            Kalk "Get ceative with how you get your pay, but you'll need a lot to be able to pay off your debt and customize to your wants in the end."
             Kalk "If you find it difficult, well, there will be more alternatives that you'll discover."
             Kalk "If you're more curious about that, I can only suggest that you talk to Decent about it."
             Kalk "Heard he was rambling about bullets or something, but thats all I remember."
             Kalk "Anything else?"
             jump questions
         label c5_nq:
-            "Great then. Thanks for stopping by, and I wish you best of luck then."
+        Kalk "Great then. Thanks for stopping by, and I wish you best of luck then."
         p "Thanks for the help. Hope you have a good day."
+        scene black
+        with bgDissolve
+        "You then leave the home, and turn around."
+        "You can feel the giant tree stare into our soul. Guess you should do as Kalkov suggested."
+        "Get to know everyone, and get your rent situation up."
 
-    ###########################################################################################################################################################
-    # Chapter 2: The actual shbang of a game.
+##########################################################################################################################################    # Chapter 2: The actual shbang of a game.
     #label actualGame
 
     return
