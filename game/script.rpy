@@ -53,8 +53,8 @@ style inv_button_text:
     yalign 0.5
 
 screen inventory_item_description:
-    # modal True
     window:
+        modal True
         background "#66edff99"
         xsize 750
         ysize 175
@@ -111,7 +111,7 @@ label start:
         with fade
 
         define  p = Character("[player]", who_color="#00c8ff")                             # The player character
-        define  npcNames = ["Decent900", "Decent", "Alex", "BadGuy", "Jerry", "E", "Kalkov"] # Names the PC can't choose
+        define  npcNames = ["Decent900", "Decent", "Alex", "BadGuy", "Jerry", "E", "Kalkov", "StunSeed"] # Names the PC can't choose
         default player = "Unknown"                                                           # What to call the PC
 
         label chooseName:
@@ -136,7 +136,7 @@ label start:
                     $ done = True
             $ player = name
         
-        p "Uh, my name is [player], where am I? Who are you?"
+        p "Uh, my name is [player]. Where am I? Who are you?"
         show narrator thinking
         with fade
         n "Nice to meet you, [player]. I have a feeling you came here not by mere chance, but with purpose. 
@@ -392,16 +392,16 @@ label start:
         show e slime happy
         with wipeup
 
-        E "Woah there, are you fine? I’m not a threat don’t worry. What’s your name?"
-        E "Oh sorry I should probably say mine first heh."
+        E "Woah there, are you fine? I’m not a threat, don’t worry. What’s your name?"
+        E "Oh sorry I should probably say mine first, Heh."
         $ E = Character("E", who_color="#ff0000")
 
-        E "Name is E, I’m the second mayor, The first is through that door."
-        p "E... Hey, nice to meet you I suppose. Name's [player]. I really didn't think your name would ever be that short, but, do you know where the hell I'm in?"
+        E "Name is E, and I’m the second mayor. The first is through that door."
+        p "E... Hey, nice to meet you I suppose. My name's [player]. I really didn't think your name would ever be that short, but, do you know where the hell I'm in?"
         p "Still quite confused on my entire part of falling through this, weird portal or whatever, wondering if you'd know anything about it."
         show e slime neutral
         with characterDissolve
-        "The slime thinks for a second. As she just stands there, you can't help but notice the strange orb in the middle of her. A strange sight indeed."
+        "The slime thinks for a second. As it just stands there, you can't help but notice the strange orb in the middle of her. A strange sight indeed."
         show e slime interested
         with characterDissolve
         E "Nope, got really no idea. I feel like I just appeared here, and you know, I'm still living my dream like how I wanted. As the town mayor, I suppose."
@@ -413,7 +413,7 @@ label start:
         E "900. I see, I've known him quite well, and I think I do have some things that you could do. Let me flip through my notes real quickly..."
         show e slime neutral
         with characterDissolve
-        "She slowly flips through her notes, from inside her body? You dare not question it, and just wait for her response. After around a short minute, she closes the book."
+        "It slowly flips through her notes, from inside her body? You dare not question it, and just wait for her response. After around a short minute, it closes the book."
         show e slime happy
         with characterDissolve
         E "Alright, you can come with me. I have another important member that you should be acquainted with inside that house. Don't worry, he won't be as weird as you think he might look like."
