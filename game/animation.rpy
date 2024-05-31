@@ -15,7 +15,6 @@ image narrator neutral:
     pause 0.2
     "narrator_neutral_02" with characterDissolve
     pause 0.2
-    "narrator_neutral_01" with characterDissolve
     repeat
 
 image narrator too interested:
@@ -38,5 +37,23 @@ image narrator thinking:
     pause 0.2
     "narrator_thinking_02" with characterDissolve
     pause 0.2
-    "narrator_thinking_01" with characterDissolve
+    repeat
+
+image narrator neutral 2:
+    "narrator_neutral2_01" with dissolve
+    pause 0.17
+    "narrator_neutral2_02" with dissolve
+    pause 0.17
+    "narrator_neutral2_03" with dissolve
+    pause 0.17
+    "narrator_neutral2_04" with dissolve
+    pause 0.27
+    "narrator_neutral2_05" with dissolve
+    pause 0.37
+    "narrator_neutral2_04" with dissolve
+    pause 0.27
+    "narrator_neutral2_03" with dissolve
+    pause 0.17
+    "narrator_neutral2_02" with dissolve
+    pause 0.17
     repeat

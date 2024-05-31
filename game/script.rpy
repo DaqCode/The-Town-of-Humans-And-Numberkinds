@@ -107,8 +107,8 @@ label start:
         show narrator too interested
         with characterDissolve
         n "You seem quite new here, hm? Nice to meet you. Now how about you tell me who  you are? Or maybe your intentions?"
-        show narrator neutral
-        with fade
+        show narrator neutral 2
+        with characterDissolve
 
         define  p = Character("[player]", who_color="#00c8ff")                             # The player character
         define  npcNames = ["Decent900", "Decent", "Alex", "BadGuy", "Jerry", "E", "Kalkov", "StunSeed"] # Names the PC can't choose
