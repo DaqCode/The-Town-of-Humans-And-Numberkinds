@@ -23,7 +23,6 @@ style inv_button_text:
 
 screen inventory_item_description:
     window:
-        modal True
         background "#66edff99"
         xsize 750
         ysize 175

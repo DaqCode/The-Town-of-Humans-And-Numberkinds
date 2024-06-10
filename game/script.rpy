@@ -6,6 +6,7 @@ define Alex = Character("Alex", who_color="#b300ffc7")
 define Jerry = Character("Jerry", who_color="#06b200")
 define E = Character("?", who_color="#ff0000")
 define Kalk = Character("Kalkov", who_color="#bebebe")
+define Telly = Character("Telly", who_color="#00ffe5")
 
 #Custom Variables sets here
 define characterDissolve = Dissolve(0.1)
@@ -29,7 +30,6 @@ define slideawaydown = CropMove(1.0, "slideawaydown")
 define irisout = CropMove(1.0, "irisout")
 define irisin = CropMove(1.0, "irisin")
 
-
 #Gane begins from here
 label start:
     camera:
@@ -44,6 +44,9 @@ label start:
         scene bg void
         with bgDissolve
         "You slowly opened your eyes. You feel a puple void, swirling around you."
+
+        show screen show_screenMap
+
         "Your stomach is in knots, your brain is confused and anxious, your heart feeling like it'll pump right out of your chest."
         "{i}\“Where am I? What is this?”{/i}\ You questioned yourself."
         "Suddenly, you see a discolored figure, walking towards you. It looked human, at least thats what you thought."
@@ -120,6 +123,9 @@ label start:
         scene bg inworld
         with bgDissolve
         p "Aughhh... My head..."
+
+        $tellyCharacter = True    
+
         scene bg inworld2
         with bgDissolve
         p "Where the hell am I?"
@@ -463,5 +469,16 @@ label start:
 
 ##########################################################################################################################################    # Chapter 2: The actual shbang of a game.
     #label actualGame
+    label telly_interraction:
+        scene bg mayorhome
+        #This is an example, not finalized.
+        "You head over to a strange home."
+        "Looks quite identical to most other homes out there, but let's see whoever this man or woman will be willing to offer?"
+        show telly happy
+        with characterDissolve
+        Telly "Oh, hey there new guy. I've never met you before? Forgive my manners, my name's Telly."
+        show telly neutral
+        with characterDissolve
+        Telly "If you couldn't tell, I am a huge fan of music and creating music. Wondering what brought you here?"
 
     return
