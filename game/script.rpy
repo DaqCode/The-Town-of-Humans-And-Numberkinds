@@ -470,24 +470,56 @@ label start:
         Kalk "Great then. Thanks for stopping by, and I wish you best of luck then."
         show kalkov neutral with characterDissolve
         p "Thanks for the help. Hope you have a good day."
-        Kalk "Hold it right there friend. Don't be going out there in your own."
-        Kalk "It'll be my duty to take you over to your home."
-        Kalk "I'll remind you, it's going to looks, rather..."
-        Kalk "Interesting if I'd have to assume."
+
+        #kalkov: hold on [player] I didnt even show you where your house is. Its my duty as mayor and land lord to show you where. 
+        #Don't worry about the looks of your home, I can guarantee bugs would not be an issue. 
+        #Well here we are, It might not look like much, but its honest with with a hint of charm. 
+        #player says thing).  
+        #remember! your rent will be due in 3 weeks and you will only need to pay 25$. 
+        #Welp im off to work, hope you enjoy your stay [player].
+        Kalk "Hold on, [player]. I didn't even show you where your home is."
+        Kalk "It's my duty as mayor and land lord to guide you to your home. Hopefully you'll remember where it is later."
+        Kalk "Don't worry about the looks of your home."
+        Kalk "But it'll look interesting to you if I could read your mind."
         Kalk "You do seem like as if you'd like to live in luxary, but that'll come at a long time and a price to pay for."
         p "Understood."
-        show black with bgDissolve
+        scene black with bgDissolve
         "After a bit of a walk, you finally find your home."
-        show bg player home outside with bgDissolve
-        Kalk "Well, this is your home."
-        Kalk "Yes, I understand, it's extremely concerning, but don't have to worry about bugs and critters infesting your home. We've done as much as we can to protect that."
-        Kalk "Do be careful of that tree although, but thats about all the worries I can give you."
+        "..."
+        scene bg player home outside with bgDissolve
+        "Jesus christ. What am I looking at."
+        window auto hide
+        show kalkov neutral:
+            subpixel True xpos -522 
+            ypos 0.96 
+            linear 0.18 ypos 0.06 
+        with hpunch
+        with Pause(0.4)
+        show kalkov neutral:
+            pos (-522, 0.06) 
+        window auto show
+        Kalk "Well, here we are. It might not look like much, but it's honest, and put with a hint of charm."
         p "...Jesus christ. I don't know whether to be happy or dissapointed."
-        Kalk "Give it some time. It'll be better than you living in the streets, which I'd not want to treat residents in."
-        Kalk "Remember, you have your rents due in 3 weeks, cost is reduced by $25, so, you'll be fine."
+        Kalk "Well then, {i}ahem{/i}, I fully welcome you to Stun Seed."
+        Kalk "Remember! Your rent will be due in 3 weeks and you only need to pay 25$ this time around."
+        show kalkov greeting with characterDissolve
+        Kalk "With that being said, I've got to leave for work. Good luck [player], and enjoy your stay!"
+        window auto hide
+        show kalkov greeting:
+            subpixel True 
+            ypos 0.06 
+            linear 0.20 ypos 0.95 
+        with hpunch
+        with Pause(0.30)
+        show kalkov greeting:
+            ypos 0.95 
+        window auto show
+
+        "He then just disappears. Right into the ground."
+
     label atHome:
         $ firstTime = False
-        scene bg player home with bgDissolve
+        scene bg player home inside with bgDissolve
         "Here's your home. It looks, quite... detrimental."
         "The seating looks like it lost its own ability to become a seat"
         "The walls look pretty deteriorated."
@@ -506,57 +538,36 @@ label start:
         c2 "Heya buddy. Need some help?"
         while True:
             window auto hide
-            show choices_help_decent:
+            show choices_decent_home:
                 subpixel True 
                 xpos 0.36 xzoom 1.0 
                 linear 0.31 xpos 0.04 xzoom 0.9 
                 linear 0.04 xpos 0.0 xzoom 1.0 
             with Pause(0.45)
-            show choices_help_decent:
-                xpos 0.0 xzoom 1.0 
-            window auto show
-            show choices_help_glitch:
-                subpixel True 
-                xpos 0.36 xzoom 1.0 
-                linear 0.31 xpos 0.04 xzoom 0.9 
-                linear 0.04 xpos 0.0 xzoom 1.0 
-            with Pause(0.45)
-            show choices_help_glitch:
-                xpos 0.0 xzoom 1.0 
-            window auto show
-            show choices_help_leave:
-                subpixel True 
-                xpos 0.36 xzoom 1.0 
-                linear 0.31 xpos 0.04 xzoom 0.9 
-                linear 0.04 xpos 0.0 xzoom 1.0 
-            with Pause(0.45)
-            show choices_help_leave:
+            show choices_decent_home:
                 xpos 0.0 xzoom 1.0 
             window auto show
 
+            
         label decentHelp:
             show decent smile with characterDissolve
-            c2 "Hm, help huh?"
+            c2 "You need some help?"
             show decent smile talking with characterDissolve
             c2 "Well, you're quite the quick witted man, considering that you've came over to immediately ask questions."
-            c2 "I'll tell you that you're already doing a great work by not being introverted, I tell ya."
-            c2 "But, advice I can give huh?"
-            c2 "I'd still say you follow Kalkov's advice."
-            c2 "Go and meet up the people out there. Make friends with them. Fix your home with funds."
-            c2 "It'll all begin once you click on that map icon above there."
+            c2 "Well I'd advise you go meet up with some people make friends, learn a thing or two about the town."
+            c2 "I've lived here for a good 4 years so I got the gist of things."
+            c2 "Nifty ain't it?"
+            c2 "So I believe in you, and I also believe you should press the map icon to navigate around the town?"
             show decent smiile with characterDissolve
-            c2 "That's about it from me!"
+            c2 "Well thats the most I have to say!"
             jump atDecentHome
-        
+    
         label decentGlitch:
             c2 "..."
-            c2 "Listen, ok?"
-            c2 "Those things are a special thing that I don't want you joking about."
-            c2 "Glitch bullets are something that I'll be needing a lot."
-            c2 "Here's my deal. There are many glitch bullet shards that've been scattered all about the map."
-            c2 "If you're able to find em, hand it over to me, and I'll be willing to reward you."
-            c2 "...After that moment, I'll have to be more careful and defensive..."
-            c2 "Oh sorry, got a bit carried a way."
+            c2 "I see you found one of my bullets. I've always wondered where they get placed."
+            c2 "I got a deal for ya, If you give me my glitch bullets I'm willing to help you out by giving you certain buffs."
+            c2 "I don't know where the bullets are, so keep an eye out for me, ok?"
+            c2 "Narrator has his methods to keeping these things difficult to find."
             c2 "But, if you do find glitch bullets, let me know, alright [player]?"
             c2 "Anthing else?"
             jump atDecentHome
