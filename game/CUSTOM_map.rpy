@@ -7,8 +7,8 @@ define locations = [
     {
         "name": "Telly",
         "unlocked": "tellyCharacter",
-        "idle_image": "tellyPin_idle.png",
-        "hover_image": "tellyPin_hover.png",
+        "idle_image": "images/Map/tellyPin_idle.png",
+        "hover_image": "images/Map/tellyPin_hover.png",
         "scene": "telly_interraction",
         "xalign": 0.8,
         "yalign": 0.2
@@ -44,7 +44,7 @@ screen map_screen:
         else:
             imagebutton:
                 # Button for locked locations
-                idle "images/lockedPin.png"
+                idle "images/Map/lockedPin.png"
                 xalign location["xalign"]
                 yalign location["yalign"]
                 action Notify("This location is locked for the moment...")

@@ -530,27 +530,69 @@ label start:
         scene bg decent home
         with bgDissolve
         "There's Decent's home."
+
         show decent floating:
             ypos -0.1
         with characterDissolve
         show jerry sleep
         with characterDissolve  
         c2 "Heya buddy. Need some help?"
-        while True:
-            window auto hide
-            show choices_decent_home:
-                subpixel True 
-                xpos 0.36 xzoom 1.0 
-                linear 0.31 xpos 0.04 xzoom 0.9 
-                linear 0.04 xpos 0.0 xzoom 1.0 
-            with Pause(0.45)
-            show choices_decent_home:
-                xpos 0.0 xzoom 1.0 
-            window auto show
+        
+        label atDecentChoices:
+            screen decentHelpChoices:
+                imagebutton:
+                    xalign 0.978
+                    yalign 0.171
+                    idle "images/Choices/choices_help_decent_idle.png"
+                    hover "images/Choices/choices_help_decent_zoom.png"
+                    action Jump("decentHelp")
 
+                imagebutton:
+                    xalign 0.978
+                    yalign 0.455
+                    idle "images/Choices/choices_help_glitch_idle.png"
+                    hover "images/Choices/choices_help_glitch_zoom.png"
+                    action Jump("decentGlitch")
+                
+                imagebutton:
+                    xalign 0.98
+                    yalign 0.71
+                    idle "images/Choices/choices_help_leave_idle.png"
+                    hover "images/Choices/choices_help_leave_zoom.png"
+                    action Jump("decentLeave")
+                
+                    
+            window auto hide
+            show choices_help_decent_idle:
+                subpixel True ypos 153 
+                xpos 1.0 
+                linear 0.34 xpos 0.7 
+            show choices_help_glitch_idle:
+                subpixel True ypos 405
+                xpos 1.0 
+                linear 0.54 xpos 0.7 
+            show choices_help_leave_idle:
+                subpixel True ypos 630 
+                xpos 1.0 
+                linear 0.88 xpos 0.7 
+            with Pause(0.98)
+            show choices_help_decent_idle:
+                pos (0.7, 153) 
+            show choices_help_glitch_idle:
+                xpos 0.7 
+            show choices_help_leave_idle:
+                pos (0.7, 630) 
+            window auto show
             
+            show decent floating with characterDissolve
+            call screen decentHelpChoices
+
+            c2 "Take your time, what do you want to choose?"
+
         label decentHelp:
-            show decent smile with characterDissolve
+            scene bg decent home 
+            show jerry sleep 
+            show decent smile 
             c2 "You need some help?"
             show decent smile talking with characterDissolve
             c2 "Well, you're quite the quick witted man, considering that you've came over to immediately ask questions."
@@ -558,11 +600,14 @@ label start:
             c2 "I've lived here for a good 4 years so I got the gist of things."
             c2 "Nifty ain't it?"
             c2 "So I believe in you, and I also believe you should press the map icon to navigate around the town?"
-            show decent smiile with characterDissolve
+            show decent smile with characterDissolve
             c2 "Well thats the most I have to say!"
-            jump atDecentHome
+            jump atDecentChoices
     
         label decentGlitch:
+            scene bg decent home 
+            show jerry sleep 
+            show decent smile 
             c2 "..."
             c2 "I see you found one of my bullets. I've always wondered where they get placed."
             c2 "I got a deal for ya, If you give me my glitch bullets I'm willing to help you out by giving you certain buffs."
@@ -570,11 +615,13 @@ label start:
             c2 "Narrator has his methods to keeping these things difficult to find."
             c2 "But, if you do find glitch bullets, let me know, alright [player]?"
             c2 "Anthing else?"
-            jump atDecentHome
-
+            jump atDecentChoices
 
         label decentLeave:
-            "..."
+            scene bg decent home 
+            show jerry sleep 
+            show decent smile 
+            c2 "Nice meeting you. Thank you for coming in along!"
             c2 "See ya!"
         jump atHome
 

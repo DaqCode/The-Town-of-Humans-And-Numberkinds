@@ -1,33 +1,27 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('images/Animation_files/decent smile talking.png') at 0x0000000004e24b80>:
-  File "game/script.rpy", line 268, in script
-    extend "and Jerry. "
-  File "renpy/common/00library.rpy", line 208, in __call__
-    renpy.exports.say(who, what, *args, **kw)
-OSError: Couldn't find file 'images/Animation_files/decent smile talking.png'.
+While loading <renpy.display.im.Image object ('images/Choices/choices_help_decent_%s.png') at 0x0000000011eedbb0>:
+  File "game/script.rpy", line 586, in script
+    call screen decentHelpChoicesDH
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+OSError: Couldn't find file 'images/Choices/choices_help_decent_%s.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 268, in script
-    extend "and Jerry. "
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
-    Say.execute(self)
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
-    who(what, *args, **kwargs)
-  File "renpy/common/00library.rpy", line 208, in __call__
-    renpy.exports.say(who, what, *args, **kw)
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\character.py", line 1394, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\character.py", line 1045, in do_display
-    display_say(who,
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\character.py", line 741, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "game/script.rpy", line 586, in script
+    call screen decentHelpChoicesDH
+  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
+    self.call("execute")
+  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
   File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
@@ -50,24 +44,18 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\transform.py", line 957, in render
-    return RenderTransform(self).render(width, height, st, at)
-  File "accelerator.pyx", line 978, in renpy.display.accelerator.RenderTransform.render
-  File "accelerator.pyx", line 413, in renpy.display.accelerator.RenderTransform.render_child
+  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\screen.py", line 754, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 260, in renpy.display.render.render
   File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\transform.py", line 957, in render
-    return RenderTransform(self).render(width, height, st, at)
-  File "accelerator.pyx", line 978, in renpy.display.accelerator.RenderTransform.render
-  File "accelerator.pyx", line 413, in renpy.display.accelerator.RenderTransform.render_child
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\image.py", line 513, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\image.py", line 316, in wrap_render
-    rend = render(child, w, h, st, at)
+  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\behavior.py", line 968, in render
+    rv = super(Button, self).render(width, height, st, at)
+  File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\layout.py", line 1361, in render
+    surf = render(child,
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 260, in renpy.display.render.render
   File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\display\im.py", line 626, in render
@@ -80,9 +68,9 @@ Full traceback:
     filelike = renpy.loader.load(self.filename, directory="images")
   File "C:\Users\dlim0\OneDrive\Desktop\renpy-8.2.1-sdk\renpy\loader.py", line 672, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'images/Animation_files/decent smile talking.png'.
+OSError: Couldn't find file 'images/Choices/choices_help_decent_%s.png'.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 The Town of Humans And Numberkinds 1.0
-Thu Jun 20 12:27:25 2024
+Thu Jun 20 23:32:34 2024
