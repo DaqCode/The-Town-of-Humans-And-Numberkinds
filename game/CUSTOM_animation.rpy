@@ -57,3 +57,24 @@ image narrator neutral 2:
     "narrator_neutral2_02" with dissolve
     pause 0.17
     repeat
+
+image decent floating:
+    "decent_neutral_01" with characterDissolve
+    pause 0.13
+    "decent_neutral_02" with characterDissolve
+    pause 0.13
+    "decent_neutral_03" with characterDissolve
+    pause 0.13
+    "decent_neutral_04" with characterDissolve
+    pause 0.13
+    "decent_neutral_05" with characterDissolve
+    pause 0.13
+    "decent_neutral_06" with characterDissolve
+    pause 0.13
+    "decent_neutral_07" with characterDissolve
+    pause 0.13
+    "decent_neutral_08" with characterDissolve
+    pause 0.13
+    "decent_neutral_09" with characterDissolve
+    pause 0.13
+    repeat

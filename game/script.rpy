@@ -1,6 +1,7 @@
 #Characters defined jumbled
 define n = Character("???", who_color="#4800C6")
 define c1 = Character("???900", who_color="ffffff")
+define c2 = Character("Decent900", who_color="#ffae00")
 define BadGuy = Character("Bad Guy", who_color="#ff820e")
 define Alex = Character("Alex", who_color="#b300ffc7")
 define Jerry = Character("Jerry", who_color="#06b200")
@@ -287,7 +288,7 @@ label start:
         show jerry aware
         with characterDissolve
         p "Poor thing, wish that thing could talk in this cartoon of a world."
-        "He seems, friendly, I think?"
+        "It seems, friendly, I think?"
         "Random curiosity now makes me want to pet it."
         "No reason? Just out of curiousity? {i}I do like reptiles I suppose, but it could be a bit of a risk{/i}..?"
         menu: 
@@ -378,10 +379,10 @@ label start:
         "It had a kitchen, you could assume you currently stood in a living room, and in that living room had a desk filled with a stack of paperwork."
         "{b}And a marble statue..?{/b}"
         "As you stand in the carpeted living room, the marble state starts shaking and shivering, oddly."
-        "Before you know it, it rises higher than you, and now it just has a suit, ready for its usual profession"
-
-        show kalkov neutral 
-        with characterDissolve
+        "Before you know it, it rises higher than you, and now it just has a suit, ready for its usual profession of ordering around people."
+        with hpunch
+        
+        show kalkov greeting with moveinbottom
         Kalk "Hello there."
         "It spoke in such a threatening voice, but you don't know if you should respond or not."
         "Did Decent teach you anything with talking yet? You should probably break out of that space of being quiet anyways..."
@@ -394,12 +395,16 @@ label start:
 
         label c4_speak:
             p "Hello there. I've been told by your friend your name is, Kalkov?"
+            show kalkov neutral
+            with characterDissolve
             Kalk "Indeed it is. Well, its nice to know you aren't one of the shy ones. Welcome to Stun Seed."
             $ nospeak = False
             jump c4_done
 
         label c4_nspeak:
             "You stand there, not saying a word."
+            show kalkov neutral
+            with characterDissolve
             "Of course, you can already feel the judgement rise from the ginourmous marble statue, and you start feeling tense and feel goosebumps forming."
             Kalk "Well, so you are one of them."
             "He {i}sighs{/i} before rising up from his chair."
@@ -414,8 +419,9 @@ label start:
         if nospeak:
             Kalk "Spoken? I see you've quickly switched up."
         Kalk "Thank you for bringing that up. I actually do have a couple of things to share with you to make your living life a bit more comfortable."
-        "He ruffles around with some papers, and eventually gets everything ordered as it is, stacking right on top of each other."
-        Kalk "Alright, so here's what I got in store for you. You have a house, and all you got to do to maintain that is to just pay $50. Every 3 weeks will suffice."
+        "He ruffles around with some papers, and eventually gets everything ordered as it is, stacked right on top of each other."
+        Kalk "Alright, so here's what I got in store for you. I'll just be giving you house, and all you got to do to maintain that is to just pay $50. Every 3 weeks will suffice."
+        Kalk "Do not worry about other signend paperwork. I was expecting newcomes to occupy this small town of ours."
         p "And how am I going to get money? Could I just assume doing jobs or commissions will be enough to pay it off?"
         Kalk "Absolutely. And to make it a little bit more easier on your toes, I'll cut your pay for this first rent by {u}half{/u}."
         Kalk "Which will mean you have to pay 25$ this time, but 50$ next time."
@@ -460,137 +466,107 @@ label start:
             Kalk "Anything else?"
             jump questions
         label c5_nq:
+        show kalkov greeting with characterDissolve
         Kalk "Great then. Thanks for stopping by, and I wish you best of luck then."
+        show kalkov neutral with characterDissolve
         p "Thanks for the help. Hope you have a good day."
-        scene black
+        Kalk "Hold it right there friend. Don't be going out there in your own."
+        Kalk "It'll be my duty to take you over to your home."
+        Kalk "I'll remind you, it's going to looks, rather..."
+        Kalk "Interesting if I'd have to assume."
+        Kalk "You do seem like as if you'd like to live in luxary, but that'll come at a long time and a price to pay for."
+        p "Understood."
+        show black with bgDissolve
+        "After a bit of a walk, you finally find your home."
+        show bg player home outside with bgDissolve
+        Kalk "Well, this is your home."
+        Kalk "Yes, I understand, it's extremely concerning, but don't have to worry about bugs and critters infesting your home. We've done as much as we can to protect that."
+        Kalk "Do be careful of that tree although, but thats about all the worries I can give you."
+        p "...Jesus christ. I don't know whether to be happy or dissapointed."
+        Kalk "Give it some time. It'll be better than you living in the streets, which I'd not want to treat residents in."
+        Kalk "Remember, you have your rents due in 3 weeks, cost is reduced by $25, so, you'll be fine."
+    label atHome:
+        $ firstTime = False
+        scene bg player home with bgDissolve
+        "Here's your home. It looks, quite... detrimental."
+        "The seating looks like it lost its own ability to become a seat"
+        "The walls look pretty deteriorated."
+        "Kalkov was right. Maybe you do need his help for fixing up your home..."
+        "Oh well. Lets see what to do this time around..."
+
+    label atDecentHome:
+        scene bg decent home
         with bgDissolve
-        "You then leave the home, and turn around."
-        "You can feel the giant tree stare into our soul. Guess you should do as Kalkov suggested."
-        "Get to know everyone, and get your rent situation up."
-
-##########################################################################################################################################    # Chapter 2: The actual shbang of a game.
-    #label actualGame
-    label telly_interraction:
-        scene bg telly home
-        #This is an example, not finalized.
-        "You head over to a strange home."
-        "Looks quite identical to most other homes out there, but except, you can hear pretty loud music coming from the inside?"
-        "Disregarding all that else, let's see whoever this man or woman will be willing to offer?"
-        "{i}Knock knock...{/i}"
-        "..."
-        n "Oh? Uhhh... Hello there, are you gonna make a noise complaint?"
-        p "No, I'm just here to ask around. Wanted to meet some new people."
-        show telly happy
+        "There's Decent's home."
+        show decent floating:
+            ypos -0.1
         with characterDissolve
-        Telly "Oh, well, hey there new guy. I've never seen someone like you. Forgive my manners, my name's Telly."
-        show telly neutral
-        with characterDissolve
-        Telly "I’m a DJ if you couldn’t tell by my music playing."
-        show telly excited
-        with characterDissolve
-        Telly "And yes, it does get loud inside, but well, it's nice meeting you there, new guy."
+        show jerry sleep
+        with characterDissolve  
+        c2 "Heya buddy. Need some help?"
+        while True:
+            window auto hide
+            show choices_help_decent:
+                subpixel True 
+                xpos 0.36 xzoom 1.0 
+                linear 0.31 xpos 0.04 xzoom 0.9 
+                linear 0.04 xpos 0.0 xzoom 1.0 
+            with Pause(0.45)
+            show choices_help_decent:
+                xpos 0.0 xzoom 1.0 
+            window auto show
+            show choices_help_glitch:
+                subpixel True 
+                xpos 0.36 xzoom 1.0 
+                linear 0.31 xpos 0.04 xzoom 0.9 
+                linear 0.04 xpos 0.0 xzoom 1.0 
+            with Pause(0.45)
+            show choices_help_glitch:
+                xpos 0.0 xzoom 1.0 
+            window auto show
+            show choices_help_leave:
+                subpixel True 
+                xpos 0.36 xzoom 1.0 
+                linear 0.31 xpos 0.04 xzoom 0.9 
+                linear 0.04 xpos 0.0 xzoom 1.0 
+            with Pause(0.45)
+            show choices_help_leave:
+                xpos 0.0 xzoom 1.0 
+            window auto show
 
-        menu tellyInteractions1: 
-            "Help me with some rent?":
-                jump tellyRent
-            "Who are you again?":
-                jump tellyWho
-            "How's life in there?":
-                jump tellyLife
-
-        label tellyWho:
-            show telly excited
-            with characterDissolve
-            Telly "Whew, you already getting some hearing damage just from my music or something?"
-            Telly "Nah, it's alright. I'm playing with you."
-            show telly neutral
-            with characterDissolve
-            Telly "Well, my life is revolved around being a plain old DJ."
-            Telly "I can't say I don't enjoy it at all, being around music and lively people enjoy'in the time is what brings me alive."
-            Telly "Can't really say much else, and you seem like a curious fellow as well."
-            show telly question
-            with characterDissolve
-            Telly "Anything else?"
-            jump tellyInteractions1
-
-        label tellyLife:
-            show telly excited
-            with characterDissolve
-            Telly "Well, there isn't much I can say about life, I suppose."
-            Telly "Just a constant cycle of makin' music, playing with my guitar, hanging out in clubs..."
-            show telly neutral
-            with characterDissolve
-            Telly "I'd say it is a pretty nice time to be in."
-            show telly excited
-            with characterDissolve
-            Telly "...Maybe except for rent now that I think of it..!"
-            show telly question
-            with characterDissolve
-            Telly "Anything else?"
-
-            jump tellyInteractions1
-    
-        label tellyRent:
-            show telly excited
-            with characterDissolve
-            Telly "Well, about that, I suppose  I'm under that same boat of yous as well."
-            show telly question
-            with characterDissolve
-            Telly "...Hmmmm"
-            show telly neutral
-            with characterDissolve
-            "She stands there and thinks to herself."
-            "You can't help but have noticed the tv around her head. Definitely not your normal kind of person out there."
-            "Maybe she's got her own face to hide or something, unless the TV is meant to be just a sensitive kind of info."
-            "Curious, but best not ask about it for now..."
-            show telly excited
-            with characterDissolve
-            Telly "Alright, come on in, I think you should be a bit accustomed to what my home looks like, because I do have a bit of things that I do want you do to."
-            scene bg telly home inside
-            with fade
-            "You come inside."
-            "It's, really nice looking, but all kinds of cyan and blue-ish colors coat the entire room."
-            "Very cozy like, you'd have to admit, with some musical instruments, a beanbag, and an overall well looking living room."
-
-            Telly "Alright, well, before I give you a share of some of the rent I did manage to pull from a small job I do..."
-            Telly "How about some questions, hm?"
-
-            Telly "Lets see... Do you like music?"
-            menu: 
-                "Yes":
-                    $ music = True
-                    Telly "Hey, at least one thing we both can agree on. It's a classic thing to love in this world anyways!"
-
-                "No":
-                    $ music = False
-                    Telly "Oof, and  I really though that you would be someone that did enjoy music. Guess everyone has different tastes."
-                    jump tellyInteractionDone
-            
-            if music:
-                Telly "Well, what do you enjoy listening to?"
-                menu: 
-                    "EDM":
-                        Telly "OH! I love EDM, I like the sounds that get played."
-                        Telly "Glitch hop is also a neat choice I like listening to, but well hey, at least you like EDM too, y'know"
-                    "Rock":
-                        Telly "Hmmm, you got some interesting taste."
-                        Telly "I'm more of a glitch pop or EDM genre kind of gal."
-                        Telly "But well hey, I'm still open to your suggestions and what you'd like. No hate."
-                    "Lofi": 
-                        Telly "Hmmm, you got some interesting taste."
-                        Telly "I'm more of a glitch pop or EDM genre kind of gal."
-                        Telly "But well hey, I'm still open to your suggestions and what you'd like. No hate."
-                    "Glitch Pop":
-                        Telly "OH! I love glitch pop. I like the sounds of the computer-ish noises it makes. "
-                        Telly "EDM is also a neat choice I like listening to, but well hey, at least you like glitch pop too."
-                    "Country": 
-                        Telly "...Well you're a first time for me. That's quite surprising."
-                        Telly "I'm more of a glitch pop or EDM genre kind of gal."
-                        Telly "But well hey, I'm still open to your suggestions and what you'd like. No hate."
-                #Will add job into this soon, but interaction should still be worked on first.
-            label tellyInteractionDone:
-                Telly "Thanks for coming in."
+        label decentHelp:
+            show decent smile with characterDissolve
+            c2 "Hm, help huh?"
+            show decent smile talking with characterDissolve
+            c2 "Well, you're quite the quick witted man, considering that you've came over to immediately ask questions."
+            c2 "I'll tell you that you're already doing a great work by not being introverted, I tell ya."
+            c2 "But, advice I can give huh?"
+            c2 "I'd still say you follow Kalkov's advice."
+            c2 "Go and meet up the people out there. Make friends with them. Fix your home with funds."
+            c2 "It'll all begin once you click on that map icon above there."
+            show decent smiile with characterDissolve
+            c2 "That's about it from me!"
+            jump atDecentHome
+        
+        label decentGlitch:
+            c2 "..."
+            c2 "Listen, ok?"
+            c2 "Those things are a special thing that I don't want you joking about."
+            c2 "Glitch bullets are something that I'll be needing a lot."
+            c2 "Here's my deal. There are many glitch bullet shards that've been scattered all about the map."
+            c2 "If you're able to find em, hand it over to me, and I'll be willing to reward you."
+            c2 "...After that moment, I'll have to be more careful and defensive..."
+            c2 "Oh sorry, got a bit carried a way."
+            c2 "But, if you do find glitch bullets, let me know, alright [player]?"
+            c2 "Anthing else?"
+            jump atDecentHome
 
 
+        label decentLeave:
+            "..."
+            c2 "See ya!"
+        jump atHome
 
-    return
+        
+
+

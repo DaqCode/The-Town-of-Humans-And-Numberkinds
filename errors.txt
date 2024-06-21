@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 175: expected 'comma or end of line' not found.
-    with fade
-    ^
+File "game/script.rpy", line 41: expected 'image_name_component' not found.
+    scene "bg chapterzero.png"
+          ^
 
-Ren'Py Version: Ren'Py 8.1.3.23091805
-Thu Apr  4 17:27:47 2024
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Thu Jun 20 12:25:00 2024
