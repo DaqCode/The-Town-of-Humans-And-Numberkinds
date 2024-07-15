@@ -62,7 +62,7 @@ label telly_interraction:
     label tellyRent:
         show telly happy
         with characterDissolve
-        Telly "Well, about that, I suppose  I'm under that same boat of yous as well."
+        Telly "Well, about that, I suppose  I'm under that same boat of yours as well."
         show telly neutral
         with characterDissolve
         Telly "...Hmmmm"
@@ -78,9 +78,10 @@ label telly_interraction:
         scene bg telly home inside
         with fade
         "You come inside."
-        "It's, really nice looking, but all kinds of cyan and blue-ish colors coat the entire room."
+        "It's, really nice looking, with all kinds of cyan and blue colors coating the entire room."
         "Very cozy like, you'd have to admit, with some musical instruments, a beanbag, and an overall well looking living room."
-
+        
+        show telly neutral with characterDissolve
         Telly "Alright, well, before I give you a share of some of the rent I did manage to pull from a small job I do..."
         Telly "How about some questions, hm?"
 
@@ -88,7 +89,7 @@ label telly_interraction:
         menu: 
             "Yes":
                 $ music = True
-                show telly happy
+                show telly happy with characterDissolves
                 Telly "Hey, at least one thing we both can agree on. It's a classic thing to love in this world anyways!"
 
             "No":

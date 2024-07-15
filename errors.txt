@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 565: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    show choices_help_leave_unzoom:
-    ^
+File "game/script.rpy", line 523: Indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Thu Jun 20 22:49:59 2024
+Fri Jun 21 16:40:17 2024

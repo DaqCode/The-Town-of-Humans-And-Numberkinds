@@ -1,784 +1,37 @@
-2024-06-21 17:24:19 UTC
+2024-06-21 23:30:32 UTC
 Windows-10-10.0.22631
 Ren'Py 8.2.1.24030407
 
-Early init took 0.12s
-Loading error handling took 0.14s
-Loading script took 2.40s
-Loading save slot metadata took 0.28s
+Early init took 0.09s
+Loading error handling took 0.10s
+Loading script took 2.21s
+Loading save slot metadata took 0.22s
 Loading persistent took 0.00s
-Running init code took 0.53s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.19s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.50s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.05s
-Running _start took 0.00s
-Interface start took 0.20s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 330.23s
-Loading error handling took 0.03s
-Loading script took 0.29s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 367.20s
-Loading error handling took 0.03s
-Loading script took 0.31s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-Save screen analysis took 0.06s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 408.95s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
+Running init code took 0.42s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
+Reloading save slot metadata took 0.17s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
 Dump and make backups took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.08s
+Initial gc took 0.05s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
+Creating interface object took 0.36s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 413.90s
-Loading error handling took 0.02s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
+Load screen analysis took 0.01s
 Analyze screens took 0.03s
 Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 420.32s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 425.27s
-Loading error handling took 0.03s
-Loading script took 0.35s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 434.78s
-Loading error handling took 0.02s
-Loading script took 0.28s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 444.33s
-Loading error handling took 0.02s
-Loading script took 0.30s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.29s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.10s
+Prepare screens took 0.08s
 Save pyanalysis. took 0.03s
 Save bytecode. took 0.03s
 Running _start took 0.00s
-Interface start took 0.14s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 455.42s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 460.40s
-Loading error handling took 0.02s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 474.48s
-Loading error handling took 0.02s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 483.96s
-Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 502.66s
-Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 513.70s
-Loading error handling took 0.03s
-Loading script took 0.28s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.27s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 523.13s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 535.74s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 796.24s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.33s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
+Interface start took 0.12s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1600)
@@ -797,25 +50,25 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 929.42s
-Loading error handling took 0.04s
-Loading script took 0.27s
-Loading save slot metadata took 0.05s
+Early init took 61.42s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
 Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.11s
+Initial gc took 0.08s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.36s
+Creating interface object took 0.28s
 Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.00s
@@ -823,226 +76,6 @@ Load screen analysis took 0.00s
 Analyze screens took 0.03s
 Save screen analysis took 0.03s
 Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 972.73s
-Loading error handling took 0.03s
-Loading script took 0.31s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1133.24s
-Loading error handling took 0.02s
-Loading script took 0.34s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1150.41s
-Loading error handling took 0.03s
-Loading script took 0.31s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1166.06s
-Loading error handling took 0.02s
-Loading script took 0.32s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.11s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-Save screen analysis took 0.04s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1175.58s
-Loading error handling took 0.04s
-Loading script took 0.31s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
@@ -1061,13 +94,13 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1194.28s
-Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
+Early init took 74.09s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
+Running init code took 0.04s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
@@ -1081,16 +114,16 @@ nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
 Creating interface object took 0.23s
 Cleaning stores took 0.00s
-Init translation took 0.07s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
 Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.12s
+Interface start took 0.11s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1600)
@@ -1105,12 +138,12 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1200.77s
+Early init took 381.02s
 Loading error handling took 0.02s
-Loading script took 0.27s
+Loading script took 0.28s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.03s
+Running init code took 0.04s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
@@ -1119,20 +152,63 @@ Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\Th
 Dump and make backups took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.09s
+Initial gc took 0.08s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
+Creating interface object took 0.31s
 Cleaning stores took 0.00s
 Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.03s
+Analyze screens took 0.02s
 Save screen analysis took 0.04s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon 780M Graphics'
+Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 391.25s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Interface start took 0.13s
 
@@ -1149,78 +225,34 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1213.35s
+Early init took 418.01s
 Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.04s
+Loading script took 0.29s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
+Running init code took 0.05s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.08s
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.09s
+Initial gc took 0.08s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
+Creating interface object took 0.31s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.03s
-Save screen analysis took 0.04s
+Save screen analysis took 0.03s
 Prepare screens took 0.11s
-Save pyanalysis. took 0.04s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1219.76s
-Loading error handling took 0.02s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Interface start took 0.11s
 
@@ -1237,141 +269,9 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1232.38s
-Loading error handling took 0.03s
-Loading script took 0.31s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1246.47s
+Early init took 419.85s
 Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1254.44s
-Loading error handling took 0.02s
-Loading script took 0.30s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1259.32s
-Loading error handling took 0.03s
-Loading script took 0.34s
+Loading script took 0.29s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.04s
@@ -1387,15 +287,15 @@ Initial gc took 0.10s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
+Creating interface object took 0.31s
 Cleaning stores took 0.00s
-Init translation took 0.05s
+Init translation took 0.06s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.10s
@@ -1413,30 +313,30 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1265.78s
+Early init took 564.37s
 Loading error handling took 0.02s
-Loading script took 0.28s
+Loading script took 0.24s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.04s
-Loading analysis data took 0.04s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
+Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.09s
+Initial gc took 0.07s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
+Creating interface object took 0.34s
 Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.03s
 Save screen analysis took 0.03s
 Prepare screens took 0.10s
 Save pyanalysis. took 0.03s
@@ -1457,36 +357,17 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1272.21s
+Early init took 584.45s
 Loading error handling took 0.02s
-Loading script took 0.30s
+Loading script took 0.20s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
+
+File "game/script.rpy", line 523: Indentation mismatch.
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
+Interface start took 0.48s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1600)
@@ -1501,373 +382,21 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1277.16s
+Early init took 684.07s
 Loading error handling took 0.03s
-Loading script took 0.27s
+Loading script took 0.38s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1283.58s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
+Running init code took 0.06s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
 Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1294.65s
-Loading error handling took 0.02s
-Loading script took 0.34s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1301.08s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1306.02s
-Loading error handling took 0.03s
-Loading script took 0.32s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.27s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.04s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1333.83s
-Loading error handling took 0.02s
-Loading script took 0.31s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.07s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1393.40s
-Loading error handling took 0.02s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.12s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1462.55s
-Loading error handling took 0.03s
-Loading script took 0.35s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1493.49s
-Loading error handling took 0.03s
-Loading script took 0.28s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
@@ -1877,9 +406,9 @@ Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
+Save screen analysis took 0.05s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.04s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Interface start took 0.12s
@@ -1897,258 +426,34 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1543.95s
-Loading error handling took 0.02s
-Loading script took 0.35s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.12s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.04s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1581.02s
-Loading error handling took 0.02s
-Loading script took 0.34s
+Early init took 707.14s
+Loading error handling took 0.04s
+Loading script took 0.29s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1618.01s
-Loading error handling took 0.03s
-Loading script took 0.28s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.14s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.33s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1632.14s
-Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
+Running init code took 0.03s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
 Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-Save screen analysis took 0.04s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1458) drawable=(2560, 1458)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1775.45s
-Loading error handling took 0.02s
-Loading script took 0.30s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 2.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1808.01s
-Loading error handling took 0.02s
-Loading script took 0.30s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.11s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
+Creating interface object took 0.27s
 Cleaning stores took 0.00s
-Init translation took 0.07s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.03s
+Analyze screens took 0.04s
 Save screen analysis took 0.03s
 Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Interface start took 0.10s
 
@@ -2165,36 +470,80 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1853.21s
-Loading error handling took 0.03s
-Loading script took 0.29s
-Loading save slot metadata took 0.03s
+Early init took 713.58s
+Loading error handling took 0.02s
+Loading script took 0.35s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Running init code took 0.04s
-Loading analysis data took 0.04s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
-Dump and make backups took 0.05s
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.09s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.29s
+Creating interface object took 0.36s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon 780M Graphics'
+Version: b'4.6.0 Compatibility Profile Context 22.40.84.03.231026'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(2560, 1459) drawable=(2560, 1459)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1622.07s
+Loading error handling took 0.03s
+Loading script took 0.33s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\dlim0\\AppData\\Roaming/RenPy/backups\\The Town of Humans and Numberkinds':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.03s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.10s
+Interface start took 0.09s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1600)
