@@ -522,10 +522,6 @@ label start:
         "He then just disappears. Right into the ground."
         "Well, time to go in."
     label atHome:
-        while normalLoopHome:
-            scene bg player home inside with bgDissolve
-            "The white loop has been accessed."
-            "Repeating..."
         screen atHomeChoices:
                 imagebutton:
                     xalign 0.978
@@ -553,7 +549,8 @@ label start:
                     idle "images/Choices/choices_player_decent_idle.png"
                     hover "images/Choices/choices_player_decent_zoom.png"
                     action Jump("decentLeave")
-
+        while normalLoopHome:
+            scene bg player home inside with bgDissolve
 
         scene bg player home inside with fade
         "Here's your home. It looks, quite... detrimental."
@@ -661,7 +658,3 @@ label start:
             c2 "Nice meeting you. Thanks for coming in!"
             c2 "See ya!"
         jump atHome
-
-        
-
-
